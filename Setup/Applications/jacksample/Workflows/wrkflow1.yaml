@@ -125,7 +125,7 @@ preDeploymentSteps:
     host: null
     outputVars: ''
     publishAsVar: false
-    scriptString: echo ${Jiravar.issueId}
+    scriptString: echo "testing"
     scriptType: BASH
     sshKeyRefName: null
     sweepingOutputName: null
