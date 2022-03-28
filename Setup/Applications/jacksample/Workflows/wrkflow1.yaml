@@ -34,16 +34,6 @@ phases:
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Verify
-    steps:
-    - type: DATA_DOG_LOG
-      name: Datadog Log
-      properties:
-        analysisServerConfigId: GK9aQNv4Q2OnnV2wCDIqsw
-        comparisonStrategy: COMPARE_WITH_CURRENT
-        hostnameField: host
-        hostnameTemplate: ${instanceDetails.hostName}
-        query: error fail*
-        timeDuration: 15
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Wrap Up
