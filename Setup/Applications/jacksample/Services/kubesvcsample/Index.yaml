@@ -1,0 +1,12 @@
+harnessApiVersion: '1.0'
+type: SERVICE
+artifactType: DOCKER
+configVariables:
+- name: servicetarget
+  value: '80'
+  valueType: TEXT
+- name: serviceport
+  value: '80'
+  valueType: TEXT
+deploymentType: KUBERNETES
+helmVersion: V2
