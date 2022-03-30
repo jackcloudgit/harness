@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: JIRA
+baseUrl: https://jagadeeshthondrangi.atlassian.net/
+password: gcpkms:jiratoken
+username: jagadeeshmcp@gmail.com

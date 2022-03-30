@@ -1,0 +1,6 @@
+harnessApiVersion: '1.0'
+type: SHELL_SCRIPT
+outputVars: pr_action
+scriptString: echo $pr_action
+scriptType: BASH
+timeoutMillis: 600000

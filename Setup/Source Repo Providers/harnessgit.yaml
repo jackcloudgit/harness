@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: main
+keyAuth: false
+password: gcpkms:mygit
+providerType: GIT
+url: https://github.com/jackcloudgit/harness.git
+urlType: REPO
+username: jackcloudgit
